@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge #1</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <h1>First Challenge - BootCamp</h1>
+    <p>Build a Modal Component</p>
+    <button class="btn btn--primary" id="open-modal">Add Information</button>
+
+    <div class="backdrop hidden">
+      <div class="modal">
+        <div class="modal__header">
+          <p>Modal Title</p>
+          <button class="close-modal">❌</button>
+        </div>
+        <div class="modal__content">
+          <form class="form">
+            <div class="form__control">
+              <label for="name">Name and Surname</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="form__control">
+              <label for="name">Email</label>
+              <input type="text" name="name" id="email" />
+            </div>
+            <div class="form__control">
+              <label for="name">Name and Surname</label>
+              <input type="text" name="name" id="name3" />
+            </div>
+            <div class="form__control">
+              <label for="name">Name and Surname</label>
+              <input type="text" name="name" id="name4" />
+            </div>
+          </form>
+        </div>
+        <div class="modal__actions">
+          <button class="btn btn--primary">Submit</button>
+          <button class="btn btn--outline">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
